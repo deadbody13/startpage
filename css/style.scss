@@ -22,13 +22,13 @@ h1 {
 .btn-primary {
   --bs-btn-color: #{modus-color("fg-alt")};
   --bs-btn-bg: #{modus-color("bg-alt")};
-  --bs-btn-border-color: black;
-  --bs-btn-hover-border-color: #{modus-color("bg-active")};
+  --bs-btn-border-color: #{modus-color("fg-alt")}99;
+  --bs-btn-hover-border-color: #{modus-color("fg-alt")};
   --bs-btn-hover-color: #{modus-color("fg-alt")};
   --bs-btn-hover-bg: #{modus-color("bg-active")};;
   --bs-btn-active-color: var(--color-fg2);
   --bs-btn-active-bg: var(--color-bg1);
-  border-width: 0px;
+  border-width: 0px 0px 0px 5px;
 }
 .btn-red {
 }

@@ -20,13 +20,13 @@ h1 {
 .btn-primary {
   --bs-btn-color: #193668;
   --bs-btn-bg: #f0f0f0;
-  --bs-btn-border-color: black;
-  --bs-btn-hover-border-color: #d7d7d7;
+  --bs-btn-border-color: #19366899;
+  --bs-btn-hover-border-color: #193668;
   --bs-btn-hover-color: #193668;
   --bs-btn-hover-bg: #d7d7d7;
   --bs-btn-active-color: var(--color-fg2);
   --bs-btn-active-bg: var(--color-bg1);
-  border-width: 0px;
+  border-width: 0px 0px 0px 5px;
 }
 
 .container {
