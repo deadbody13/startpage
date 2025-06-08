@@ -1,1 +1,2 @@
-# startpage
+# Startpage
+![startpage](showcase.png)
