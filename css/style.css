@@ -24,8 +24,8 @@ h1 {
   --bs-btn-hover-border-color: #193668;
   --bs-btn-hover-color: #193668;
   --bs-btn-hover-bg: #d7d7d7;
-  --bs-btn-active-color: var(--color-fg2);
-  --bs-btn-active-bg: var(--color-bg1);
+  --bs-btn-active-color: #f0f0f0;
+  --bs-btn-active-bg: #f0f0f0;
   border-width: 0px 0px 0px 5px;
 }
 
