@@ -1,0 +1,49 @@
+@use 'modus-operandi-palette' as modus;
+@function modus-color($name) {
+  @return map-get(modus.$modus-operandi-colors, $name);
+}
+
+:root {
+  --font-primary: "Go";
+  --font-mono: "Go Mono";
+}
+
+body {
+  color: #{modus-color("fg-main")};
+  background-color: #{modus-color("bg-main")};
+  font-family: var(--font-primary);
+}
+h1 {
+  text-align: center;
+}
+.btn {
+  border-radius: 0px;
+}
+.btn-primary {
+  --bs-btn-color: #{modus-color("fg-alt")};
+  --bs-btn-bg: #{modus-color("bg-alt")};
+  --bs-btn-border-color: black;
+  --bs-btn-hover-border-color: #{modus-color("bg-active")};
+  --bs-btn-hover-color: #{modus-color("fg-alt")};
+  --bs-btn-hover-bg: #{modus-color("bg-active")};;
+  --bs-btn-active-color: var(--color-fg2);
+  --bs-btn-active-bg: var(--color-bg1);
+  border-width: 0px;
+}
+.btn-red {
+}
+.container {
+  padding-top: 10%;
+}
+.col {
+  padding-top: 50px;
+}
+.row {
+  
+}
+.title {
+  padding-bottom: 40px;
+}
+.weatherwidget-io {
+  margin-top: 100px;
+}

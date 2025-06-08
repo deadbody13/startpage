@@ -1,0 +1,48 @@
+:root {
+  --font-primary: "Go";
+  --font-mono: "Go Mono";
+}
+
+body {
+  color: #000000;
+  background-color: #ffffff;
+  font-family: var(--font-primary);
+}
+
+h1 {
+  text-align: center;
+}
+
+.btn {
+  border-radius: 0px;
+}
+
+.btn-primary {
+  --bs-btn-color: #193668;
+  --bs-btn-bg: #f0f0f0;
+  --bs-btn-border-color: black;
+  --bs-btn-hover-border-color: #d7d7d7;
+  --bs-btn-hover-color: #193668;
+  --bs-btn-hover-bg: #d7d7d7;
+  --bs-btn-active-color: var(--color-fg2);
+  --bs-btn-active-bg: var(--color-bg1);
+  border-width: 0px;
+}
+
+.container {
+  padding-top: 10%;
+}
+
+.col {
+  padding-top: 50px;
+}
+
+.title {
+  padding-bottom: 40px;
+}
+
+.weatherwidget-io {
+  margin-top: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */
