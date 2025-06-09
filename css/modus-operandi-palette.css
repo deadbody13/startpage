@@ -1,0 +1,115 @@
+:root {
+// Background colors
+--bg-main: #ffffff;
+--bg-dim: #f0f0f0;
+--bg-alt: #f0f0f0;
+--bg-active: #d7d7d7;
+--bg-inactive: #efefef;
+--bg-region: #b5b5b5;
+--bg-header: #e4e4e4;
+--bg-tab-active: #f5f5f5;
+--bg-tab-inactive: #c0c0c0;
+--bg-hl-line: #eaeaef;
+--bg-hover: #94d4ff;
+--bg-hover-secondary: #f5d0a0;
+--bg-completion: #c0deff;
+
+// Foreground colors
+--fg-main: #000000;
+--fg-dim: #595959;
+--fg-alt: #193668;
+--fg-mode-line-active: #000000;
+--fg-mode-line-inactive: #585858;
+--fg-link: #0031a9;
+--fg-link-emphasis: #0000ff;
+
+// Border colors
+--border: #9f9f9f;
+--border-mode-line-active: #5a5a5a;
+--border-mode-line-inactive: #a3a3a3;
+
+// Accent colors
+--red: #a60000;
+--green: #006800;
+--yellow: #6f5500;
+--blue: #0031a9;
+--magenta: #721045;
+--cyan: #005e8b;
+--rust: #8a290f;
+--gold: #80601f;
+--olive: #56692d;
+--slate: #2f3f83;
+--indigo: #4a3a8a;
+--maroon: #731c52;
+--pink: #7b435c;
+
+// Intense background colors
+--bg-red-intense: #ff8f88;
+--bg-green-intense: #8adf80;
+--bg-yellow-intense: #f3d000;
+--bg-blue-intense: #bfc9ff;
+--bg-magenta-intense: #dfa0f0;
+--bg-cyan-intense: #a4d5f9;
+
+// Subtle background colors
+--bg-red-subtle: #ffcfbf;
+--bg-green-subtle: #b3fabf;
+--bg-yellow-subtle: #fff576;
+--bg-blue-subtle: #ccdfff;
+--bg-magenta-subtle: #ffddff;
+--bg-cyan-subtle: #bfefff;
+
+// Nuanced background colors
+--bg-red-nuanced: #fff1f0;
+--bg-green-nuanced: #ecf7ed;
+--bg-yellow-nuanced: #fff3da;
+--bg-blue-nuanced: #f3f3ff;
+--bg-magenta-nuanced: #fdf0ff;
+--bg-cyan-nuanced: #ebf6fa;
+
+// Graph background colors
+--bg-graph-red-0: #ef7969;
+--bg-graph-red-1: #ffaab4;
+--bg-graph-green-0: #4faa09;
+--bg-graph-green-1: #8fef00;
+--bg-graph-yellow-0: #ffcf00;
+--bg-graph-yellow-1: #f9ff00;
+--bg-graph-blue-0: #7090ff;
+--bg-graph-blue-1: #9fc6ff;
+--bg-graph-magenta-0: #e07fff;
+--bg-graph-magenta-1: #fad0ff;
+--bg-graph-cyan-0: #70d3f0;
+--bg-graph-cyan-1: #afefff;
+
+// Mode line colors
+--bg-mode-line-active: #c8c8c8;
+--bg-mode-line-inactive: #e6e6e6;
+--modeline-err: #7f0000;
+--modeline-warning: #5f0070;
+--modeline-info: #002580;
+
+// Tab bar colors
+--bg-tab-bar: #dfdfdf;
+--bg-tab-current: #ffffff;
+--bg-tab-other: #c2c2c2;
+
+// Change tracking colors
+--bg-added: #c1f2d1;
+--bg-added-faint: #d8f8e1;
+--bg-added-refine: #aee5be;
+--bg-added-intense: #8cca8c;
+--fg-added: #005000;
+--fg-added-intense: #006700;
+--bg-changed: #ffdfa9;
+--bg-changed-faint: #ffefbf;
+--bg-changed-refine: #fac090;
+--bg-changed-intense: #d7c20a;
+--fg-changed: #553d00;
+--fg-changed-intense: #655000;
+--bg-removed: #ffd8d5;
+--bg-removed-faint: #ffe9e9;
+--bg-removed-refine: #f3b5af;
+--bg-removed-intense: #d84a4f;
+--fg-removed: #8f1313;
+--fg-removed-intense: #aa2222
+}
