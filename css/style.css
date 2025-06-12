@@ -44,5 +44,15 @@ h1 {
 }
 
 .weatherwidget-io {
-	margin-top: 100px;
+	margin-top: 20px;
+}
+#clock {
+	color: rgba(var(--fg-alt),0.5);
+	font-size: 50px;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: 0.1em;
+	border: 0px solid rgba(var(--fg-alt),1.0);
+	margin-top: 40px;
+	padding: 10px 0 10px 0;
 }
