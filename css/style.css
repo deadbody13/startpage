@@ -1,4 +1,6 @@
 @import 'modus-operandi-palette.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500&display=swap');
+
 
 :root {
 	--font-primary: "Go";
@@ -44,15 +46,21 @@ h1 {
 }
 
 .weatherwidget-io {
-	margin-top: 20px;
 }
 #clock {
-	color: rgba(var(--fg-alt),0.5);
-	font-size: 50px;
-	font-weight: 300;
+	color: rgba(var(--fg-alt),1.0);
+	font-family: "Inter";
+	font-size: 40px;
+	font-weight: 100;
+	letter-spacing: 0.08em;
+	margin: 0.6em;
+	padding: 0.4em 1em;
+	border-radius: 0;
+	background: transparent;
+	box-shadow: none;
+	border: 1px solid rgba(var(--fg-alt),1.0);
+	display: inline-block;
+	min-width: 8ch;
 	text-align: center;
-	letter-spacing: 0.1em;
-	border: 0px solid rgba(var(--fg-alt),1.0);
-	margin-top: 40px;
-	padding: 10px 0 10px 0;
+	font-variant-numeric: tabular-nums; /* Ensures consistent number width */
 }
