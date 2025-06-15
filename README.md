@@ -1,2 +1,2 @@
 # Startpage
-![startpage](showcase.png)
+![startpage](showcase_2.0.png)
