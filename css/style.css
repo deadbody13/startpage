@@ -26,15 +26,21 @@ h1 {
 }
 
 .btn-primary {
-	--bs-btn-color: rgb(var(--fg-alt));
+	--bs-btn-color: rgb(var(--blue));
 	--bs-btn-bg: rgb(var(--bg-alt));
-	--bs-btn-border-color: rgba(var(--fg-alt),0.5);
+	--bs-btn-border-color: rgba(var(--blue),0.5);
 	--bs-btn-hover-border-color: rgb(var(--fg-alt));
 	--bs-btn-hover-color: rgb(var(--fg-alt));
-	--bs-btn-hover-bg: rgb(var(--bg-active));
+	--bs-btn-hover-bg: rgb(var(--bg-main));
 	--bs-btn-active-color: rgb(var(--bg-alt));
 	--bs-btn-active-bg: rgb(var(--bg-alt));
 	border-width: 0px 0px 0px 5px;
+}
+.btn-primary:hover {
+	border-color: rgba(var(--blue),0.5);
+	border-width: 0px 0px 0px 5px;
+	outline: 1px solid rgba(var(--blue),0.5);
+	outline-width: 0px 1px 0px 0px;
 }
 
 .container {
@@ -49,7 +55,7 @@ h1 {
 	margin-top: 2.0em;
 }
 #clock {
-	color: rgba(var(--fg-alt),1.0);
+	color: rgba(var(--blue),1.0);
 	font-family: "Inter";
 	font-size: 32px;
 	font-weight: 200;
@@ -59,9 +65,9 @@ h1 {
 	border-radius: 0;
 	background: transparent;
 	box-shadow: none;
-	border: 2px solid rgba(var(--fg-alt),1.0);
+	border: 2px solid rgba(var(--blue),1.0);
 	display: inline-block;
-	min-width: 8ch;
+	min-width: 12ch;
 	text-align: center;
 	font-variant-numeric: tabular-nums; /* Ensures consistent number width */
 }
