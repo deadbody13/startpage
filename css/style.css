@@ -4,11 +4,19 @@
 	font-family: "Inter";
 	src: url('../fonts/Inter/Inter-VariableFont_opsz,wght.ttf');
 }
+@font-face {
+	font-family: "PT Serif";
+	src: url('../fonts/PT/PTSerif-Regular.ttf');
+}
+@font-face {
+	font-family: "PT Mono";
+	src: url('../fonts/PT/PTMono-Regular.ttf');
+}
 
 
 :root {
-	--font-primary: "Inter";
-	--font-mono: "Go Mono";
+	--font-primary: "PT Serif";
+	--font-mono:    "PT Mono";
 }
 
 body {
@@ -56,7 +64,7 @@ h1 {
 }
 #clock {
 	color: rgba(var(--blue),1.0);
-	font-family: "Inter";
+	font-family: "PT Serif";
 	font-size: 32px;
 	font-weight: 200;
 	letter-spacing: 0.08em;
