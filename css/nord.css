@@ -1,0 +1,120 @@
+:root {
+	/* Background colors */
+	--bg-main: 46, 52, 64;          /* #2E3440 */
+	--bg-dim: 59, 66, 82;           /* #3B4252 */
+	--bg-alt: 67, 76, 94;           /* #434C5E */
+	--bg-active: 76, 86, 106;       /* #4C566A */
+	--bg-inactive: 59, 66, 82;
+	--bg-region: 76, 86, 106;
+	--bg-header: 59, 66, 82;
+	--bg-tab-active: 67, 76, 94;
+	--bg-tab-inactive: 59, 66, 82;
+	--bg-hl-line: 67, 76, 94;
+	--bg-hover: 94, 129, 172;       /* Frost blue */
+	--bg-hover-secondary: 208, 135, 112; /* Aurora orange */
+	--bg-completion: 129, 161, 193; /* Frost light blue */
+
+	/* Foreground colors */
+	--fg-main: 216, 222, 233;       /* #D8DEE9 */
+	--fg-dim: 180, 188, 204;
+	--fg-alt: 229, 233, 240;        /* #E5E9F0 */
+	--fg-mode-line-active: 236, 239, 244;
+	--fg-mode-line-inactive: 180, 188, 204;
+	--fg-link: 136, 192, 208;       /* Frost cyan */
+	--fg-link-emphasis: 94, 129, 172;
+
+	/* Border colors */
+	--border: 76, 86, 106;
+	--border-mode-line-active: 136, 192, 208;
+	--border-mode-line-inactive: 76, 86, 106;
+
+	/* Accent colors */
+	--red: 191, 97, 106;            /* Aurora red */
+	--green: 163, 190, 140;         /* Aurora green */
+	--yellow: 235, 203, 139;        /* Aurora yellow */
+	--blue: 129, 161, 193;          /* Frost blue */
+	--magenta: 180, 142, 173;       /* Aurora purple */
+	--cyan: 136, 192, 208;          /* Frost cyan */
+
+	/* Deleted: no direct Nord equivalents */
+	/* --rust */
+	/* --gold */
+	/* --olive */
+	/* --slate */
+	/* --indigo */
+	/* --maroon */
+	/* --pink */
+
+	/* Intense background colors */
+	--bg-red-intense: 191, 97, 106;
+	--bg-green-intense: 163, 190, 140;
+	--bg-yellow-intense: 235, 203, 139;
+	--bg-blue-intense: 129, 161, 193;
+	--bg-magenta-intense: 180, 142, 173;
+	--bg-cyan-intense: 136, 192, 208;
+
+	/* Subtle background colors */
+	--bg-red-subtle: 76, 86, 106;
+	--bg-green-subtle: 76, 86, 106;
+	--bg-yellow-subtle: 76, 86, 106;
+	--bg-blue-subtle: 67, 76, 94;
+	--bg-magenta-subtle: 67, 76, 94;
+	--bg-cyan-subtle: 67, 76, 94;
+
+	/* Nuanced background colors */
+	--bg-red-nuanced: 59, 66, 82;
+	--bg-green-nuanced: 59, 66, 82;
+	--bg-yellow-nuanced: 59, 66, 82;
+	--bg-blue-nuanced: 46, 52, 64;
+	--bg-magenta-nuanced: 46, 52, 64;
+	--bg-cyan-nuanced: 46, 52, 64;
+
+	/* Graph background colors */
+	--bg-graph-red-0: 191, 97, 106;
+	--bg-graph-red-1: 208, 135, 112;
+	--bg-graph-green-0: 163, 190, 140;
+	--bg-graph-green-1: 180, 204, 160;
+	--bg-graph-yellow-0: 235, 203, 139;
+	--bg-graph-yellow-1: 243, 225, 175;
+	--bg-graph-blue-0: 94, 129, 172;
+	--bg-graph-blue-1: 129, 161, 193;
+	--bg-graph-magenta-0: 180, 142, 173;
+	--bg-graph-magenta-1: 200, 170, 195;
+	--bg-graph-cyan-0: 136, 192, 208;
+	--bg-graph-cyan-1: 159, 209, 220;
+
+	/* Mode line colors */
+	--bg-mode-line-active: 67, 76, 94;
+	--bg-mode-line-inactive: 59, 66, 82;
+	--modeline-err: 191, 97, 106;
+	--modeline-warning: 208, 135, 112;
+	--modeline-info: 136, 192, 208;
+
+	/* Tab bar colors */
+	--bg-tab-bar: 59, 66, 82;
+	--bg-tab-current: 67, 76, 94;
+	--bg-tab-other: 46, 52, 64;
+
+	/* Change tracking colors */
+	--bg-added: 67, 76, 94;
+	--bg-added-faint: 59, 66, 82;
+	--bg-added-refine: 76, 86, 106;
+	--bg-added-intense: 163, 190, 140;
+	--fg-added: 163, 190, 140;
+	--fg-added-intense: 180, 204, 160;
+
+	--bg-changed: 76, 86, 106;
+	--bg-changed-faint: 67, 76, 94;
+	--bg-changed-refine: 94, 129, 172;
+	--bg-changed-intense: 235, 203, 139;
+	--fg-changed: 235, 203, 139;
+	--fg-changed-intense: 243, 225, 175;
+
+	--bg-removed: 76, 86, 106;
+	--bg-removed-faint: 67, 76, 94;
+	--bg-removed-refine: 191, 97, 106;
+	--bg-removed-intense: 191, 97, 106;
+	--fg-removed: 191, 97, 106;
+	--fg-removed-intense: 208, 135, 112;
+}
+
