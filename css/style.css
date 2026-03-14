@@ -49,10 +49,15 @@ h1 {
 	--bs-btn-active-color: rgb(var(--blue));
 	--bs-btn-active-border-color: rgb(var(--blue));
 	--bs-btn-active-bg: rgb(var(--bg-main));
+	--bs-btn-focus-box-shadow: 0 0 0 0 rgb(var(--yellow));
+	--bs-btn-hover-border-color: rgb(var(--yellow));
 	border-width: 1px 1px 1px 5px;
 	border-color: rgb(var(--bg-main)) rgb(var(--bg-main)) rgb(var(--bg-main)) rgb(var(--blue));
 }
 .btn-primary:hover {
+	border-color: rgb(var(--yellow));
+}
+input:focus {
 	border-color: rgb(var(--yellow));
 }
 
