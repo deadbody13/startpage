@@ -46,7 +46,8 @@ h1 {
 	--bs-btn-bg: rgb(var(--bg-main));
 	--bs-btn-hover-color: rgb(var(--yellow));
 	--bs-btn-hover-bg: rgb(var(--bg-main));
-	--bs-btn-active-color: rgb(var(--bg-main));
+	--bs-btn-active-color: rgb(var(--blue));
+	--bs-btn-active-border-color: rgb(var(--blue));
 	--bs-btn-active-bg: rgb(var(--bg-main));
 	border-width: 1px 1px 1px 5px;
 	border-color: rgb(var(--bg-main)) rgb(var(--bg-main)) rgb(var(--bg-main)) rgb(var(--blue));
