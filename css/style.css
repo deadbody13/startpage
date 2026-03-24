@@ -83,7 +83,7 @@ input:focus {
 	border-radius: 0;
 	background: transparent;
 	box-shadow: none;
-	border: 2px solid rgba(var(--blue),1.0);
+	/* border: 2px solid rgba(var(--blue),1.0) */
 	display: inline-block;
 	min-width: 12ch;
 	text-align: center;
